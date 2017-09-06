@@ -7,5 +7,6 @@ module.exports = require('object-assign')({
     UrdfMesh: require('./UrdfMesh'),
     UrdfModel: require('./UrdfModel'),
     UrdfSphere: require('./UrdfSphere'),
-    UrdfVisual: require('./UrdfVisual')
+    UrdfVisual: require('./UrdfVisual'),
+    UrdfParse: require('./UrdfParse')
 }, require('./UrdfTypes'));
